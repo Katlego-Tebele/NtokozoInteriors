@@ -1,0 +1,294 @@
+==================================================
+NTOKOZO MBATHA INTERIORS (PTY) LTD
+QUICK START GUIDE
+==================================================
+
+🎉 YOUR PREMIUM WEBSITE IS READY!
+
+==================================================
+STEP 1: TEST THE WEBSITE
+==================================================
+
+1. Open "index.html" in your web browser
+   - Right-click index.html
+   - Select "Open with" → Browser (Chrome/Edge/Firefox)
+
+2. Explore the website:
+   ✓ Navigation menu
+   ✓ All sections scroll smoothly
+   ✓ Gallery filtering works
+   ✓ WhatsApp buttons open WhatsApp
+   ✓ Contact form submission
+   ✓ Mobile hamburger menu
+   ✓ Lightbox image viewer
+
+==================================================
+STEP 2: ADD YOUR BUSINESS LOGO
+==================================================
+
+📁 Create/Upload: images/logo.png
+
+Requirements:
+- PNG format with transparent background
+- Recommended size: 300x100px
+- Professional quality
+
+This logo will appear in:
+- Navigation bar (top)
+- Footer (bottom)
+
+==================================================
+STEP 3: ADD YOUR PROJECT IMAGES
+==================================================
+
+You need:
+
+1. Hero Background (homepage)
+   📁 images/hero.jpg
+   Size: 1920x1080px
+
+2. About Section Image
+   📁 images/about.jpg
+   Size: 800x600px
+
+3. Service Images (6 images)
+   📁 images/kitchen/kitchen-placeholder.jpg
+   📁 images/tv-units/tv-placeholder.jpg
+   📁 images/wardrobes/wardrobe-placeholder.jpg
+   📁 images/bathrooms/bathroom-placeholder.jpg
+   📁 images/ceilings/ceiling-placeholder.jpg
+   📁 images/doors-placeholder.jpg
+
+4. Gallery/Project Images
+   Add multiple photos to each category folder:
+   📁 images/kitchen/
+   📁 images/tv-units/
+   📁 images/wardrobes/
+   📁 images/bathrooms/
+   📁 images/ceilings/
+
+📝 See: images/IMAGE_UPLOAD_GUIDE.txt for details
+
+==================================================
+STEP 4: UPDATE HTML WITH YOUR IMAGES
+==================================================
+
+Open index.html and update image paths:
+
+Example:
+FROM: src="images/kitchen/kitchen-placeholder.jpg"
+TO:   src="images/kitchen/modern-kitchen-2024.jpg"
+
+For gallery, add your projects:
+
+<div class="gallery-item" data-category="kitchens">
+    <img src="images/kitchen/your-image.jpg" 
+         alt="Description" loading="lazy">
+    <div class="gallery-overlay">
+        <h4>Project Name</h4>
+        <p>Brief description</p>
+        <i class="fas fa-search-plus"></i>
+    </div>
+</div>
+
+==================================================
+STEP 5: VERIFY CONTACT INFORMATION
+==================================================
+
+✓ WhatsApp: 076 689 1123
+✓ Email: ntokozombatha1836@gmail.com
+✓ TikTok: @ntokozointeriors0
+✓ Facebook: Mbatha interiors decorating
+
+IF ANY OF THIS IS WRONG:
+1. Open index.html in text editor
+2. Use Find & Replace (Ctrl+F)
+3. Update the information
+4. Save the file
+
+==================================================
+STEP 6: TEST ALL WHATSAPP LINKS
+==================================================
+
+Click every WhatsApp button to verify:
+- Get a Free Quote (navigation)
+- Service enquiry buttons (all 6 services)
+- Request a Quote (pricing section)
+- Contact form submission
+- Floating WhatsApp button
+
+All should open WhatsApp with 076 689 1123
+
+==================================================
+STEP 7: TEST ON MOBILE DEVICE
+==================================================
+
+1. Transfer files to phone OR
+2. Deploy to test server OR
+3. Use browser developer tools (F12 → mobile view)
+
+Check:
+✓ Hero section displays correctly
+✓ Navigation hamburger menu works
+✓ All text is readable
+✓ Images fit properly
+✓ No horizontal scrolling
+✓ WhatsApp buttons work
+✓ Forms are usable
+
+==================================================
+STEP 8: DEPLOY YOUR WEBSITE
+==================================================
+
+OPTION A: GitHub Pages (FREE)
+------------------------------
+1. Create account: github.com
+2. Create new repository
+3. Upload all files
+4. Settings → Pages → Enable
+5. Live at: yourusername.github.io/repo-name
+
+OPTION B: Netlify (EASIEST)
+----------------------------
+1. Go to: netlify.com
+2. Sign up (free)
+3. Drag & drop your folder
+4. Instant deployment!
+5. Free domain: yoursite.netlify.app
+
+OPTION C: Your Own Hosting
+---------------------------
+1. Upload via FTP or cPanel
+2. Put files in public_html or www
+3. Ensure index.html is in root
+4. Visit your domain
+
+==================================================
+STEP 9: PROMOTE YOUR WEBSITE
+==================================================
+
+Share your website URL on:
+✓ TikTok bio (@ntokozointeriors0)
+✓ Facebook page (Mbatha interiors decorating)
+✓ WhatsApp status
+✓ Business cards
+✓ Email signature
+✓ Quotes and invoices
+✓ Instagram
+✓ Google Business Profile
+
+==================================================
+PRE-LAUNCH CHECKLIST
+==================================================
+
+[ ] Logo uploaded (images/logo.png)
+[ ] Hero background added (images/hero.jpg)
+[ ] About image added (images/about.jpg)
+[ ] All 6 service images added
+[ ] Gallery images uploaded (at least 5-10 per category)
+[ ] Contact information verified
+[ ] All WhatsApp links tested
+[ ] Email link works
+[ ] TikTok link works
+[ ] Pricing is accurate
+[ ] Website tested on desktop
+[ ] Website tested on mobile
+[ ] All sections display correctly
+[ ] Gallery filtering works
+[ ] Lightbox opens images
+[ ] Contact form submits to WhatsApp
+[ ] Navigation menu works
+[ ] No broken images
+
+==================================================
+CURRENT WEBSITE FEATURES
+==================================================
+
+✓ Sticky navigation with mobile menu
+✓ Full-screen hero section
+✓ About section with highlights
+✓ 6 premium service cards
+✓ Filterable project gallery (7 categories)
+✓ Full-screen lightbox viewer
+✓ Transparent pricing display
+✓ Spray foam insulation price table
+✓ Why Choose Us section (5 reasons)
+✓ TikTok social integration
+✓ WhatsApp contact form
+✓ Professional footer
+✓ Floating WhatsApp button
+✓ Back to top button
+✓ Smooth scrolling
+✓ Scroll animations
+✓ Fully responsive design
+
+==================================================
+TECHNICAL SPECS
+==================================================
+
+✓ HTML5, CSS3, Vanilla JavaScript
+✓ No backend required
+✓ No database needed
+✓ Works on all modern browsers
+✓ Mobile-first responsive
+✓ Fast loading (optimized)
+✓ SEO-friendly markup
+✓ WhatsApp-first enquiries
+✓ Easy to maintain
+✓ Ready for static hosting
+
+==================================================
+FILE STRUCTURE
+==================================================
+
+ntokozo-interiors/
+├── index.html          ← Main website
+├── README.md           ← Full documentation
+├── QUICK_START.txt     ← This file
+│
+├── css/
+│   └── style.css      ← All styling
+│
+├── js/
+│   └── script.js      ← All functionality
+│
+├── images/
+│   ├── logo.png       ← ADD YOUR LOGO
+│   ├── hero.jpg       ← ADD YOUR HERO IMAGE
+│   ├── about.jpg      ← ADD YOUR ABOUT IMAGE
+│   ├── kitchen/       ← ADD KITCHEN PROJECTS
+│   ├── tv-units/      ← ADD TV UNIT PROJECTS
+│   ├── wardrobes/     ← ADD WARDROBE PROJECTS
+│   ├── bathrooms/     ← ADD BATHROOM PROJECTS
+│   └── ceilings/      ← ADD CEILING PROJECTS
+│
+└── videos/            ← Optional project videos
+
+==================================================
+NEED HELP?
+==================================================
+
+📚 Read README.md for detailed documentation
+📸 Read images/IMAGE_UPLOAD_GUIDE.txt for image help
+💬 Test all WhatsApp links - they should work immediately
+🌐 Deploy to Netlify for easiest hosting
+
+==================================================
+CONTACT & SUPPORT
+==================================================
+
+Business: Ntokozo Mbatha Interiors (Pty) Ltd
+WhatsApp: 076 689 1123
+Email: ntokozombatha1836@gmail.com
+TikTok: @ntokozointeriors0
+
+==================================================
+
+🎉 YOU'RE ALL SET!
+
+Your premium interior design website is ready.
+Add your images, verify contact details, and deploy!
+
+"Turning Spaces Into Beautiful Homes" ✨
+
+==================================================

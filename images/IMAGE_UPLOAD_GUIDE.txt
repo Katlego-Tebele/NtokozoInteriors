@@ -1,0 +1,200 @@
+==========================================
+NTOKOZO MBATHA INTERIORS
+IMAGE UPLOAD GUIDE
+==========================================
+
+This guide will help you add your business images to the website.
+
+==========================================
+REQUIRED IMAGES
+==========================================
+
+1. LOGO (logo.png)
+   Location: images/logo.png
+   Format: PNG with transparent background
+   Size: 300x100px recommended
+   Purpose: Navigation bar and footer
+
+2. HERO BACKGROUND (hero.jpg)
+   Location: images/hero.jpg
+   Format: JPG
+   Size: 1920x1080px (landscape)
+   Purpose: Homepage full-screen background
+   Tip: Use your most impressive interior photo
+
+3. ABOUT SECTION (about.jpg)
+   Location: images/about.jpg
+   Format: JPG
+   Size: 800x600px
+   Purpose: About Us section image
+   Tip: Professional interior or work in progress
+
+==========================================
+SERVICE PLACEHOLDER IMAGES
+==========================================
+
+Replace these placeholder images with your actual work:
+
+4. KITCHEN UNITS
+   Location: images/kitchen/kitchen-placeholder.jpg
+   Size: 600x400px minimum
+
+5. TV WALL UNITS
+   Location: images/tv-units/tv-placeholder.jpg
+   Size: 600x400px minimum
+
+6. WARDROBES
+   Location: images/wardrobes/wardrobe-placeholder.jpg
+   Size: 600x400px minimum
+
+7. BATHROOMS
+   Location: images/bathrooms/bathroom-placeholder.jpg
+   Size: 600x400px minimum
+
+8. CEILINGS
+   Location: images/ceilings/ceiling-placeholder.jpg
+   Size: 600x400px minimum
+
+9. DOORS & CUSTOM SOLUTIONS
+   Location: images/doors-placeholder.jpg
+   Size: 600x400px minimum
+
+==========================================
+GALLERY/PROJECT IMAGES
+==========================================
+
+Add your completed project photos to the appropriate category folders:
+
+📁 images/kitchen/
+   - Add multiple kitchen project photos
+   - Name: kitchen-project1.jpg, kitchen-project2.jpg, etc.
+
+📁 images/tv-units/
+   - Add TV wall unit project photos
+   - Name: tv-project1.jpg, tv-project2.jpg, etc.
+
+📁 images/wardrobes/
+   - Add wardrobe project photos
+   - Name: wardrobe-project1.jpg, wardrobe-project2.jpg, etc.
+
+📁 images/bathrooms/
+   - Add bathroom renovation photos
+   - Name: bathroom-project1.jpg, bathroom-project2.jpg, etc.
+
+📁 images/ceilings/
+   - Add ceiling project photos
+   - Name: ceiling-project1.jpg, ceiling-project2.jpg, etc.
+
+==========================================
+IMAGE SPECIFICATIONS
+==========================================
+
+✓ Format: JPG for photos, PNG for logos
+✓ Size: Minimum 800x600px for gallery images
+✓ Orientation: Landscape (horizontal) preferred
+✓ Quality: High-resolution, well-lit photos
+✓ File size: Compress to under 500KB per image
+✓ Naming: Use lowercase, hyphens instead of spaces
+
+==========================================
+IMAGE TIPS
+==========================================
+
+✓ Take photos in good lighting (natural light is best)
+✓ Show completed projects, not work in progress
+✓ Clean and style the space before photographing
+✓ Multiple angles of the same project work well
+✓ Show before/after where possible
+✓ Include variety of your services
+✓ Avoid blurry or poorly lit photos
+✓ Remove any personal information from photos
+
+==========================================
+IMAGE COMPRESSION
+==========================================
+
+Before uploading, compress your images:
+
+Online Tools:
+- https://tinypng.com (recommended, easy to use)
+- https://compressor.io
+- https://imagecompressor.com
+
+Desktop Tools:
+- Adobe Photoshop (Save for Web)
+- GIMP (free alternative)
+- IrfanView (Windows)
+
+Target: Keep images under 500KB for fast loading
+
+==========================================
+HOW TO UPDATE IMAGES IN HTML
+==========================================
+
+After adding images, update index.html:
+
+1. Find the service card section
+2. Replace placeholder image path with your image:
+   
+   FROM: src="images/kitchen/kitchen-placeholder.jpg"
+   TO:   src="images/kitchen/your-image-name.jpg"
+
+3. For gallery images, add new items:
+   
+   <div class="gallery-item" data-category="kitchens">
+       <img src="images/kitchen/your-image.jpg" alt="Description">
+       <div class="gallery-overlay">
+           <h4>Project Title</h4>
+           <p>Brief description</p>
+           <i class="fas fa-search-plus"></i>
+       </div>
+   </div>
+
+==========================================
+GALLERY CATEGORIES
+==========================================
+
+Use these data-category values:
+- kitchens
+- tv-units
+- wardrobes
+- bathrooms
+- ceilings
+- other
+
+This enables the gallery filtering system.
+
+==========================================
+TESTING YOUR IMAGES
+==========================================
+
+After adding images:
+
+1. Open index.html in browser
+2. Check all images load correctly
+3. Test gallery filtering
+4. Click images to test lightbox
+5. Check mobile display
+6. Verify image quality and loading speed
+
+==========================================
+TROUBLESHOOTING
+==========================================
+
+Images not showing?
+✓ Check file names match exactly (case-sensitive)
+✓ Verify images are in correct folders
+✓ Ensure file extensions are correct (.jpg, .png)
+✓ Check image paths in HTML
+
+Images loading slowly?
+✓ Compress images (aim for under 500KB)
+✓ Use JPG for photos (smaller than PNG)
+✓ Optimize before uploading
+
+==========================================
+
+Need help? Review the main README.md file
+or check the HTML comments in index.html
+
+==========================================
